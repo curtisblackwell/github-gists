@@ -1,6 +1,6 @@
 <?php
 
-namespace Statamic\Addons\Gists;
+namespace Statamic\Addons\Gist;
 
 use Statamic\Extend\Tags;
 
