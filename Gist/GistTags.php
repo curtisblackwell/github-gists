@@ -6,10 +6,13 @@ use Statamic\Extend\Tags;
 
 class GistTags extends Tags
 {
+    public function __call($method, $params) {
+        return $this->index($method);
+    }
 
-    public function index() {
+    public function index($id = null) {
 
-        $id = $this->getParam('id');
+        $id = $this->getParam('id', $id);
         $file = $this->getParam('file');
 
         return "<script src=\"http://gist.github.com/{$id}.js" . ($file == '' ? '' : '?file=' . $file) . "\"></script>";
