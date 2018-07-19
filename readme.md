@@ -11,9 +11,11 @@ You can embed a Gist into your content using the `gist` tag.
 To embed all files from a Gist, use the following:
 ```
 {{ gist:123456789 }}
+```
 
-{{# Or be explicit: #}}
+Or be explicit:
 
+```
 {{ gist id="123456789" }}
 ```
 ## Display one file from Gist
