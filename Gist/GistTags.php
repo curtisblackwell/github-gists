@@ -11,12 +11,9 @@ class GistTags extends Tags
     }
 
     public function index($id = null) {
-
         $id = $this->getParam('id', $id);
         $file = $this->getParam('file');
 
-        return "<script src=\"http://gist.github.com/{$id}.js" . ($file == '' ? '' : '?file=' . $file) . "\"></script>";
-        
+        return "<script src=\"http://gist.github.com/" . $id . ".js" . ($file == '' ? '' : '?file=' . $file) . "\"></script>";
     }
-
 }
