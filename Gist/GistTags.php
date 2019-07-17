@@ -14,6 +14,6 @@ class GistTags extends Tags
         $id = $this->getParam('id', $id);
         $file = $this->getParam('file');
 
-        return "<script src=\"http://gist.github.com/" . $id . ".js" . ($file == '' ? '' : '?file=' . $file) . "\"></script>";
+        return "<script src=\"https://gist.github.com/" . $id . ".js" . ($file == '' ? '' : '?file=' . $file) . "\"></script>";
     }
 }
