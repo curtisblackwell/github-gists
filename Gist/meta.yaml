@@ -1,5 +1,5 @@
 name: 'Github Gist Embeds'
-version: 2.0.1
+version: 2.1.1
 description: 'Embed Github Gists in your Statamic templates'
 developer: 'Duncan McClean'
 developer_url: 'http://duncan.mcclean.co.uk'
