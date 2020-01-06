@@ -5,4 +5,4 @@
 * Embed single files from Gists
 
 ## 📄 Documentation
-Read the docs on the [Statamic Marketplace](https://statamic.com/marketplace/addons/github-gist-embeds/docs) or [make changes](https://github.com/damcclean/statamic-github-gists/blob/master/DOCUMENTATION.md) to it on Github.
+Read the docs on the [Statamic Marketplace](https://statamic.com/marketplace/addons/github-gist-embeds/docs) or [make changes](https://github.com/doublethreedigital/github-gists/blob/master/DOCUMENTATION.md) to it on Github.
