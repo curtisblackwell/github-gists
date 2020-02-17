@@ -1,5 +1,7 @@
 ## Installation
-Unzip the download and place the `Gist` directory in your `site/addons` directory.
+
+1. Install from Composer `composer require doublethreedigital/github-gists`
+2. Start using tags in your views.
 
 ## Usage
 You can embed a Gist by using the `{{ gist }}` tag in your templates.

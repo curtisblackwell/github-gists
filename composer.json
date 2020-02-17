@@ -1,0 +1,55 @@
+{
+    "name": "doublethreedigital/github-gists",
+    "description": "Embed Github Gists in your Statamic templates",
+    "type": "statamic-addon",
+    "authors": [
+        {
+            "name": "Duncan McClean",
+            "email": "duncan@doublethree.digital",
+            "homepage": "http://duncanm.dev",
+            "role": "Founder of Double Three Digital"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "DoubleThreeDigital\\GithubGists\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DoubleThreeDigital\\GithubGists\\Tests\\": "tests"
+        }
+    },
+    "require": {
+        "statamic/cms": "^3.0@beta"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.0",
+        "phpunit/phpunit": "^8.1"
+    },
+    "extra": {
+        "statamic": {
+            "name": "Github Gists",
+            "description": "Embed Github Gists in your Statamic templates"
+        },
+        "laravel": {
+            "providers": [
+                "DoubleThreeDigital\\GithubGists\\ServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "scripts": {
+        "lint": [
+            "php-cs-fixer fix ./src"
+        ],
+        "test": [
+            "./vendor/bin/phpunit ."
+        ]
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    }
+}

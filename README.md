@@ -1,8 +1,14 @@
-# Github Gist Embeds
-> Embed Github Gists in your Statamic templates
+![Statamic 3.0+](https://img.shields.io/badge/Statamic-3.0+-FF269E?style=for-the-badge&link=https://statamic.com)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/doublethreedigital/github-gists.svg?style=flat-square)](https://packagist.org/packages/doublethreedigital/github-gists)
 
-* Tags to embed Gists
-* Embed single files from Gists
+## About Minify
 
-## 📄 Documentation
-Read the docs on the [Statamic Marketplace](https://statamic.com/marketplace/addons/github-gist-embeds/docs) or [make changes](https://github.com/doublethreedigital/github-gists/blob/master/DOCUMENTATION.md) to it on Github.
+Github Gists is a Statamic 3 addon which allows you to embed Github Gists inside your templates.
+
+## Using Minify
+
+We've written [some documentation](./DOCUMENTATION.md) to help you out when using Minify.
+
+## Contributing
+
+Are you down with contributing? That's awesome, just make sure to follow [our contributors guide](./CONTRIBUTORS.md).
