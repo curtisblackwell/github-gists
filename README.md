@@ -1,7 +1,7 @@
 ![Statamic 3.0+](https://img.shields.io/badge/Statamic-3.0+-FF269E?style=for-the-badge&link=https://statamic.com)
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/doublethreedigital/github-gists.svg?style=flat-square)](https://packagist.org/packages/doublethreedigital/github-gists)
 
-## About Minify
+## About Github Gists
 
 Github Gists is a Statamic 3 addon which allows you to embed Github Gists inside your templates.
 
